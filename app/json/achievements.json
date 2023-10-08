@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "tahun": "2019",
+        "juara": "Rank 1",
+        "ketLomba": "Olimpiade Jaringan Wilayah Sumatra"
+    },
+    {
+        "id":2,
+        "tahun": "2019",
+        "juara": "Rank 1",
+        "ketLomba": "Olimpiade Jaringan Wilayah Sumatra"
+    },
+    {
+        "id":3,
+        "tahun": "2019",
+        "juara": "Harapan 1",
+        "ketLomba": "Olimpiade Jaringan Wilayah Sumatra"
+    }
+]
