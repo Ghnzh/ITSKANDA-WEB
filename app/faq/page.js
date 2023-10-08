@@ -1,11 +1,12 @@
 import Footer from "@/components/footer"
+import SoonCard from "@/components/soonCard"
 import Image from "next/image"
 
 export default function faqPage() {
     return (
         <>
         <div className="h-screen text-center">
-            <div className="h-[70%] lg:h-[10%] w-full bg-ijo flex flex-col items-center justify-center pt-4">
+            <div className="h-[35%] lg:h-[10%] w-full bg-ijo flex flex-col items-center justify-center pt-4">
             {/* <Image src={'faq.svg'} width={300} height={300} alt="faq-text"  /> */}
             {/* <h1 className="font-bold text-5xl lg:text-6xl text-kuning">FAQs</h1> */}
             </div>
@@ -15,13 +16,7 @@ export default function faqPage() {
             </svg>
             </div>
         </div>
-
-        <div className="text-center flex justify-center -mt-60 lg:-mt-[450px] mb-20">
-            <div className="p-6 rounded-2xl bg-nav shadow-2xl ">
-                <p className="lg:text-6xl text-4xl font-bold">Coming Soon</p>
-            </div>
-        </div>
-       
+        <SoonCard />
         <Footer />
         </>
     )

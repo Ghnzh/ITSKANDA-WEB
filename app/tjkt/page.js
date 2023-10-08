@@ -1,12 +1,13 @@
 import Footer from "@/components/footer"
+import SoonCard from "@/components/soonCard"
 import Image from "next/image"
 
 export default function productsPage() {
     return (
         <>
         <div className="h-screen text-center">
-            <div className="h-[70%] w-full bg-ijo flex flex-col items-center justify-center pt-4">
-            <h1 className="font-bold text-5xl text-kuning">TJKT</h1>
+            <div className="h-[45%] lg:h-[70%] w-full bg-ijo flex flex-col items-center justify-center pt-4">
+            <h1 className="font-bold text-5xl text-kuning mt-16 lg:mt-0">TJKT</h1>
             </div>
             <div className='w-full lg:-mt-32 -mt-14'>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 260" fill="none">
@@ -14,13 +15,7 @@ export default function productsPage() {
             </svg>
             </div>
         </div>
-
-        <div className="text-center flex justify-center -mt-60 mb-20">
-            <div className="p-6 rounded-2xl bg-nav shadow-2xl ">
-                <p className="lg:text-5xl text-4xl font-bold">Coming Soon</p>
-            </div>
-        </div>
-       
+        <SoonCard />
         <Footer />
         </>
     )
