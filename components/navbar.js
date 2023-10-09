@@ -13,7 +13,7 @@ export const Navbar = () => {
 
   return (
     <>
-   <div className="fixed w-full top-0 z-[99] p-6 lg:px-16 2xl:px-40 lg:py-0">
+   <div data-aos="fade-down" className="fixed w-full top-0 z-[99] p-6 lg:px-16 2xl:px-40 lg:py-0">
         <div className="bg-nav py-4 lg:px-8 px-6 rounded-xl lg:rounded-t-none lg:border-[0.5px] border-[#dfdfdf] border-t-0">
           <nav className="flex h-9 items-center justify-between text-sm font-semibold" aria-label="Global">
             <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:space-x-2">
