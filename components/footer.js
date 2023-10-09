@@ -36,7 +36,7 @@ export default function Footer() {
           </div>
         </div>
          <div className="relative z-99 flex justify-center border-t-[0.3px] border-gray-500 lg:py-8 py-6 lg:">
-          <h1 className="font-light text-[12px] text-gray-400">Made with 💖 by madebygannn</h1>
+          <h1 className="font-light text-[12px] text-white">Made with 💖 by madebygannn</h1>
           {/* <h1 className="lg:text-[12px] text-[10px] font-light text-gray-400">© 2022 SMKN 2 PEKANBARU | All Rights Reserved.</h1> */}
         </div>  
       </div>
