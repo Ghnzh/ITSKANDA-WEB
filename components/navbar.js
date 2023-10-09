@@ -24,7 +24,7 @@ export const Navbar = () => {
             <div className="flex self-center justify-center lg:min-w-0 lg:flex-1" aria-label="Global">
               <Link href={`/`} className="-m-1.5 p-1.5 flex items-center space-x-2">
                 <Image src={'Logo/logo-smk.svg'} height={40} width={40} alt="logo-smk" />
-                <Image src={'Logo/logo-itskanda.svg'} height={130} width={130} alt="logo-itskanda" />
+                <Image src={'Logo/Logo-itskanda.svg'} height={130} width={130} alt="L" />
               </Link>
             </div>
             <div className="flex lg:hidden" onClick={handleClick}>
