@@ -27,7 +27,7 @@ export default function Home() {
     <div className='lg:px-40 lg:mt-72 md:mt-20 lg:py-8 px-10 -mt-20 space-y-12 font-medium'>
       <div className='lg:flex lg:justify-center lg:space-x-28 lg:space-y-0 space-y-4'>
         <h1 data-aos="fade-right" className='lg:w-1/3 font-bold lg:text-5xl text-4xl'>Why?</h1>
-        <p data-aos="fade-up" className='lg:w-2/3 lg:text-[18px] lg:max-w-xl'>
+        <p data-aos="fade-left" className='lg:w-2/3 lg:text-[18px] lg:max-w-xl'>
           <span>Teknologi terus berkembang dengan cepat. Dengan belajar teknologi, kamu akan dapat mengikuti perkembangan terbaru dan terus memperbarui keterampilan kamu.</span>
           <br />
           <br />
@@ -37,7 +37,7 @@ export default function Home() {
 
       <div className='lg:flex lg:justify-center lg:space-x-28 lg:space-y-0 space-y-4'>
         <h1 data-aos="fade-right" className='lg:w-1/3 font-bold lg:text-5xl text-4xl'>Future Job</h1>
-          <div data-aos="fade-up" className='lg:w-2/3 lg:text-[18px] lg:max-w-xl lg:space-y-6 space-y-4'>
+          <div data-aos="fade-left" className='lg:w-2/3 lg:text-[18px] lg:max-w-xl lg:space-y-6 space-y-4'>
             <p>Ada banyak peluang kerja yang tersedia bagi pelajar IT, beberapa di antaranya adalah:</p>
             <ul className='flex flex-row flex-wrap md:gap-3 gap-2 font-semibold md:text-[22px]'>
               <li data-aos="fade-up" className='md:px-6 p-3 rounded-xl bg-nav border-ijo border-[0.5px]'>Adminitrasi Sistem</li>
@@ -58,7 +58,7 @@ export default function Home() {
     {/* Running Text */}
     <div className="marquee lg:my-12 my-16 bg-ijo text-cream">
       <div className="marquee__inner">
-        <p className="marquee__line lg:text-6xl md:text-5xl text-[34px] lg:p-6 md:p-5 p-2 ">• SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT </p>
+        <p data-aos="fade-up" className="marquee__line lg:text-6xl md:text-5xl text-[34px] lg:p-6 md:p-5 p-2 ">• SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT </p>
         {/* <p className="marquee__line">• SMKN 2 PRESENT </p> */}
       </div>
     </div>
