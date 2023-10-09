@@ -42,7 +42,7 @@ export const Navbar = () => {
             </div>
           </nav>
           <div role="dialog" aria-modal="true">
-            <div data-aos="fade-down" focus="true" className={`${active ? "" : "hidden"} fixed inset-0 z-10 overflow-y-auto bg-nav px-6 py-6 lg:hidden m-6 h-fit rounded-xl shadow-2xl duration-500`}>
+            <div focus="true" className={`${active ? "" : "hidden"} fixed inset-0 z-10 overflow-y-auto bg-nav px-6 py-6 lg:hidden m-6 h-fit rounded-xl shadow-2xl duration-500`}>
               <div className="flex h-9 items-center justify-between">
                 <div className="flex">
                   <Link href={`/`} className="-m-1.5 p-1.5 flex items-center space-x-2">
