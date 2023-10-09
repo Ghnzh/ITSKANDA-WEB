@@ -10,10 +10,10 @@ export default function guruPage() {
 
     return (
         <>
-        <div className="h-screen text-center">
+        <div data-aos="fade-down" className="h-screen text-center">
             <div className="h-[70%] bg-ijo flex flex-col items-center justify-center pt-4">
-                <h1 className="text-[44px] font-bold md:text-5xl lg:text-6xl text-kuning">Teaching Staff</h1>
-                <p className="text-cream text-lg lg:text-xl lg:mt-4">15 Educators</p>
+                <h1 data-aos="fade-right"  className="text-[44px] font-bold md:text-5xl lg:text-6xl text-kuning">Teaching Staff</h1>
+                <p data-aos="fade-left" className="text-cream text-lg lg:text-xl lg:mt-4">15 Educators</p>
             </div>
         </div>
 

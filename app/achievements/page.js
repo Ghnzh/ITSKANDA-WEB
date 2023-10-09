@@ -8,9 +8,10 @@ export default function achievementsPage() {
       };
     return (
         <>
-        <div className="h-screen text-center">
+        <div data-aos="fade-down" className="h-screen text-center">
             <div className="h-[60%] w-full bg-ijo flex flex-col items-center justify-center pt-4">
-            <h1 className="text-4xl font-bold md:text-5xl lg:text-6xl text-kuning max-w-xs lg:max-w-full text-center z-50">Our Achievements</h1>
+            <h1 data-aos="fade-right"  className="text-4xl font-bold md:text-5xl lg:text-6xl text-kuning max-w-xs lg:max-w-full text-center z-50">Our Achievements</h1>
+            <p data-aos="fade-left" className="text-cream text-lg lg:text-xl lg:mt-4">12 Trophy</p>
             </div>
             <div className='w-full lg:-mt-52 -mt-14'>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 260" fill="none">

@@ -14,8 +14,8 @@ export const Navbar = () => {
   return (
     <>
    <div className="fixed w-full top-0 z-[99] p-6 lg:px-16 2xl:px-40 lg:py-0">
-        <div data-aos="fade-down" className="bg-nav py-4 lg:px-8 px-6 rounded-xl lg:rounded-t-none lg:border-[0.5px] border-[#dfdfdf] border-t-0">
-          <nav className="flex h-9 items-center justify-between text-sm font-semibold" aria-label="Global">
+        <div data-aos="fade-down"  className="bg-nav py-4 lg:px-8 px-6 rounded-xl lg:rounded-t-none lg:border-[0.5px] border-[#dfdfdf] border-t-0">
+          <nav data-aos="fade-down"  className="flex h-9 items-center justify-between text-sm font-semibold" aria-label="Global">
             <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:space-x-2">
               <Link href={`/guru`} className="hover:bg-ijo hover:text-kuning px-4 py-2 rounded-xl duration-500">Educators</Link>
               <Link href={`/#major`} className="hover:bg-ijo hover:text-kuning px-4 py-2 rounded-xl duration-500">Major Class</Link>
@@ -42,7 +42,7 @@ export const Navbar = () => {
             </div>
           </nav>
           <div role="dialog" aria-modal="true">
-            <div focus="true" className={`${active ? "" : "hidden"} fixed inset-0 z-10 overflow-y-auto bg-nav px-6 py-6 lg:hidden m-6 h-fit rounded-xl shadow-2xl duration-500`}>
+            <div data-aos="fade-down"  focus="true" className={`${active ? "" : "hidden"} fixed inset-0 z-10 overflow-y-auto bg-nav px-6 py-6 lg:hidden m-6 h-fit rounded-xl shadow-2xl duration-500`}>
               <div className="flex h-9 items-center justify-between">
                 <div className="flex">
                   <Link href={`/`} className="-m-1.5 p-1.5 flex items-center space-x-2">

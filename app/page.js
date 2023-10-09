@@ -19,7 +19,7 @@ export default function Home() {
           </svg>
         </div>
         <div className="mx-auto lg:-mt-52 md:-mt-40 -mt-24 px-8 w-full">
-          <img data-aos="fade-up" src="Unsplash/gambar1.jpg"  className='rounded-2xl mx-auto h-5/6'/>
+          <Image data-aos="fade-up" width={1000} height={400} alt='hero-img' src={"/Unsplash/gambar1.jpg"}  className='rounded-xl mx-auto h-5/6 z-50'/>
         </div>
     </div>
 
