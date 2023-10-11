@@ -8,7 +8,7 @@ export default function Home() {
     <>
 
     {/* Section 1 */}
-    <div data-aos="fade-down" className="h-screen text-center">
+    <div data-aos="fade-down" className="h-screen text-center overflow-y-hidden">
         <div className="h-[70%] w-full bg-ijo flex flex-col items-center justify-center pt-4">
           <h1 data-aos="fade-right" className="text-4xl font-bold md:text-5xl lg:text-6xl capitalize text-kuning max-w-md md:max-w-[800px]">raih masa Depan dengan Belajar teknologi</h1>
           <p data-aos="fade-left" className="text-sm text-cream md:text-xl max-w-[325px] md:max-w-2xl mt-8">Transformasi Digital Membangun Masa Depan Yang Penuh Inovasi dan Peluang Tanpa batas</p>
