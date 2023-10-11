@@ -13,11 +13,11 @@ const poppins = Poppins({
   display: 'swap', adjustFontFallback: false
 })
 
-export const metadata = {
-  title: 'ITSKANDA',
-  description: 'SKANDA TI WEBSITE',
-  // link = '/favicon.ico' />,
-}
+// export const metadata = {
+//   title: 'ITSKANDA',
+//   description: 'SKANDA TI WEBSITE',
+//   // link = '/favicon.ico' />,
+// }
 
 export default function RootLayout({ children }) {
   useEffect(() => {
