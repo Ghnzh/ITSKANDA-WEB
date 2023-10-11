@@ -8,7 +8,7 @@ export default function Home() {
     <>
 
     {/* Section 1 */}
-    <div data-aos="fade-down" className="h-screen text-center overflow-y-hidden">
+    <div data-aos="fade-down" className="h-screen text-center">
         <div className="h-[70%] w-full bg-ijo flex flex-col items-center justify-center pt-4">
           <h1 data-aos="fade-right" className="text-4xl font-bold md:text-5xl lg:text-6xl capitalize text-kuning max-w-md md:max-w-[800px]">raih masa Depan dengan Belajar teknologi</h1>
           <p data-aos="fade-left" className="text-sm text-cream md:text-xl max-w-[325px] md:max-w-2xl mt-8">Transformasi Digital Membangun Masa Depan Yang Penuh Inovasi dan Peluang Tanpa batas</p>
@@ -19,7 +19,7 @@ export default function Home() {
           </svg>
         </div>
         <div className="mx-auto lg:-mt-52 md:-mt-40 -mt-24 px-8 w-full">
-          <Image height={400} width={800} alt='hero-img' data-aos="fade-up" src="Unsplash/gambar1.jpg"  className='rounded-2xl mx-auto'/>
+          <Image src={'/Unsplash/gambar1.jpg'} height={200} width={1000} alt='hero-img' data-aos="fade-down" className='rounded-2xl mx-auto'/>
         </div>
     </div>
 
@@ -59,7 +59,6 @@ export default function Home() {
     <div className="marquee lg:my-12 my-16 bg-ijo text-cream">
       <div className="marquee__inner">
         <p data-aos="fade-up" className="marquee__line lg:text-6xl md:text-5xl text-[34px] lg:p-6 md:p-5 p-2 ">• SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT </p>
-        {/* <p className="marquee__line">• SMKN 2 PRESENT </p> */}
       </div>
     </div>
 

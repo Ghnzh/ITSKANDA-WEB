@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
        })
  }, [])
   return (
-    <html lang="en" className='scroll-smooth overflow-x-hidden'>
+    <html lang="en" className='scroll-smooth'>
       {/* <link rel="icon" href="../favicon.ico" /> */}
       <body className={poppins.className}>
         <Navbar />
