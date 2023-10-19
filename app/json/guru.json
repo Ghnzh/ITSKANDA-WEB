@@ -4,7 +4,7 @@
      "ttl":"PEKANBARU,25 DESEMBER 1982",
      "bidangStudi":"KAPROLI RPL",
      "moto":"AKHIRAT DIKEJAR DIDUNIA DIDAPAT",
-     "img":"/guruImages/buk-asmeri.jpg"
+     "img":"/guruImages/Buk-Asmeri.jpg"
     },
 
     {"id":2,
@@ -12,7 +12,7 @@
      "ttl":"PEKANBARU,26 NOVEMBER 1984",
      "bidangStudi":"TKJ & RPL",
      "moto":"JIKA INGIN LEBIH SUKSES,KELUARLAH DARI ZONA NYAMAN",
-     "img":"/guruImages/buk-Rini.jpg"
+     "img":"/guruImages/Buk-Rini.jpg"
     },
 
     {"id":3,
@@ -28,7 +28,7 @@
      "ttl":"RUMBAI,26 OKTOBER 1977",
      "bidangStudi":"TKJ & RPL",
      "moto":"KALAU ADA YANG MUDAH KENAPA HARUS YANG SULIT",
-     "img":"/guruImages/buk-Erlina.jpg"
+     "img":"/guruImages/Buk-Erlina.jpg"
     },
 
     {"id":5,
@@ -36,7 +36,7 @@
      "ttl":"PADANG,15 JULI 1985",
      "bidangStudi":"RPL",
      "moto":"SABAR ITU ILMU TINGKAT TINGGI,BELAJARNYA SETIAP HARI,LATIHANNYA SETIAP SAAT DAN UJIANNYA SERING MENDADAK",
-     "img":"/guruImages/buk-Yuni.jpg"
+     "img":"/guruImages/Buk-Yuni.jpg"
     },
 
     {"id":6,
@@ -44,7 +44,7 @@
      "ttl":"PEKANBARU,03 JANUARI 1990",
      "bidangStudi":"ADMINISTRASI TU",
      "moto":"KESUKSESAN ADALAH BUAH DARI USAHA USAHA KECIL YANG DI ULANG HARI DEMI HARI",
-     "img":"/guruImages/buk-putri.jpg"
+     "img":"/guruImages/Buk-Putri.jpg"
     },
 
     {"id":7,
@@ -60,7 +60,7 @@
      "ttl":"BANGKINANG,04 OKTOBER 1987",
      "bidangStudi":"T.INFORMATIKA",
      "moto":"SYUKURI HAL YANG KAMU PUNYA SAAT INI,NIKMATI DAN BAHAGIALAH",
-     "img":"/guruImages/buk-winda.jpg"
+     "img":"/guruImages/Buk-Winda.jpg"
     },
 
     {"id":9,
@@ -68,7 +68,7 @@
      "ttl":"JAWA TENGAH,23 DESEMBER 1964",
      "bidangStudi":"TKJ",
      "moto":"RAJIN PANGKAL PANDAI",
-     "img":"/guruImages/pak-sujono.jpg"
+     "img":"/guruImages/Pak-Sujono.jpg"
     },
 
     {"id":10,
@@ -76,7 +76,7 @@
      "ttl":"TANAH DATAR,5 AGUSTUS  1966",
      "bidangStudi":"TKJ",
      "moto":"DISIPLIN ITU PANGKAL SUKSES",
-     "img":"/guruImages/buk-nandel.jpg"
+     "img":"/guruImages/Buk-Nandel.jpg"
     },
 
     {"id":11,
@@ -84,7 +84,7 @@
      "ttl":"PULAU KIJANG,30 NOVEMBER 1980",
      "bidangStudi":"TKJ",
      "moto":"SEHAT ITU MAHAL",
-     "img":"/guruImages/pak-zulhamdi.jpg"
+     "img":"/guruImages/Pak-Zulhamdi.jpg"
     },
 
     {"id":12,
@@ -92,7 +92,7 @@
      "ttl":"TOBOALI BANGKA,24 SEMPTEMBER 1974",
      "bidangStudi":"TKJ",
      "moto":"nikmati hidup",
-     "img":"/guruImages/buk-fitriwati.jpg"
+     "img":"/guruImages/Buk-Fitriwati.jpg"
     },
 
     {"id":13,
@@ -100,7 +100,7 @@
      "ttl":"PEKANBARU, 07 NOVEMBER 1988",
      "bidangStudi":"TKJ & RPL",
      "moto":"tetap semangat",
-     "img":"/guruImages/buk-ria.jpg"
+     "img":"/guruImages/Buk-Ria.jpg"
     },
 
     {"id":14,
@@ -108,7 +108,7 @@
      "ttl":"PEKANBARU,5 JULI 1977",
      "bidangStudi":"TKJ",
      "moto":"MANUSIA DIKATAKAN BERGUNA JIKA BERMANFAAT UNTUK ORANG LAIN",
-     "img":"/guruImages/buk-fitrianti.jpg"
+     "img":"/guruImages/Buk-Fitrianti.jpg"
     },
 
     {"id":15,
@@ -116,6 +116,6 @@
      "ttl":"KAMPAR,15 JANUARI  1976",
      "bidangStudi":"TKJ",
      "moto":": CARA TERBAIK UNTUK MEMPREDIKSI MASA DEPAN ADALAH DENGAN MEMPERSIAPKAN NYA.",
-     "img":"/guruImages/pak-hendriyanto.jpg"
+     "img":"/guruImages/Pak-Hendriyanto.jpg"
     }
 ]
