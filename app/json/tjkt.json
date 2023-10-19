@@ -1,0 +1,20 @@
+[
+    {
+        "defenisi": "Teknik Jaringan Komputer dan Telekomunikasi (TJKT) merupakan program keahlian yang membekali peserta didik dengan keterampilan, pengetahuan, dan sikap agar kompeten dalam merakit, menginstall program, merawat dan memperbaiki komputer serta jaringannya. Lulusan program keahlian ini memiliki kemampuan melakukan installasi jaringan komputer, baik itu jaringan komputer dalam rumah /kantor, antar kantor, antar kota, antar provinsi, bahkan antar negara."
+    },
+
+    {
+        "mapel": [
+            "pemrograman dasar",
+            "sistem komputer",
+            "dasar desain grafis",
+            "simulasi dan komunikasi digital",
+            "komputer dan jaringan dasar",
+            "administrasi sistem jaringan",
+            "administrasi infrastruktur jaringan",
+            "teknologi layanan jaringan",
+            "teknologi jaringan berbasis luas",
+            "produk kreatif dan kewirausahaan"
+        ]
+    }
+]

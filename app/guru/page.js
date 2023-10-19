@@ -2,7 +2,7 @@ import Footer from "@/components/footer"
 import CardGuru from '@/components/cardGuru';
 import guruList from '@/app/json/guru.json'
 
-export default function guruPage() {
+function guruPage() {
 
      const renderGuru = () => {
         return guruList.map((guru) => <CardGuru key={guru.id} guru={guru} />);
@@ -17,8 +17,8 @@ export default function guruPage() {
             </div>
         </div>
 
-        <div className="bg-cream lg:p-14 px-10 py-12 -mt-[280px] rounded-t-3xl z-50">
-            {/* <p className="font-light italic">|| klik untuk melihat profile lengkap</p> */}
+        <div className="bg-cream lg:px-24 px-10 py-14 -mt-[280px] rounded-t-3xl z-50">
+            <p className="font-light italic">|| klik untuk melihat profile lengkap</p>
             <div className="grid lg:grid-cols-2 mt-12 lg:gap-6 gap-y-5">
                 {renderGuru()}
             </div>
@@ -27,3 +27,5 @@ export default function guruPage() {
         </>
     )
 }
+
+export default guruPage

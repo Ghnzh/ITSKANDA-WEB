@@ -42,7 +42,7 @@ export const Navbar = () => {
               </div>
             </nav>
             <div role="dialog" aria-modal="true">
-              <div focus="true" className={`${active ? "" : "hidden"} fixed inset-0 z-10 overflow-y-auto bg-nav px-6 py-6 lg:hidden m-6 h-fit rounded-xl shadow-2xl duration-500`}>
+              <div focus="true" className={`${active ? "" : "hidden"} fixed inset-0 z-10 overflow-y-auto bg-nav px-6 py-6 lg:hidden m-6 h-fit rounded-xl shadow-2xl`}>
                 <div className="flex h-9 items-center justify-between">
                   <div className="flex">
                     <Link href={`/`} className="-m-1.5 p-1.5 flex items-center space-x-2">
@@ -59,7 +59,7 @@ export const Navbar = () => {
                     </button>
                   </div>
                 </div>
-                <div className="mt-4 md:px-6 flow-root">
+                <div className="mobile mt-4 md:px-6 flow-root">
                   <div className="-my-6 text-2xl">
                     <div className="flex flex-wrap gap-4 py-12 font-semibold text-3xl text-kuning">
                       <Link href={`/`} className="p-4 rounded-xl bg-ijo leading-7">Home</Link>
