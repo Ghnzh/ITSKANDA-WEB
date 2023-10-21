@@ -24,7 +24,7 @@ function CardGuru({guru}) {
               <div class="fixed inset-0 backdrop-blur-sm"></div>
               <div class="bg-ijo p-6 lg:p-12 mt-12 rounded-xl w-[90%] lg:w-1/2 relative z-10">
                 <div class="flex justify-end" onClick={handleClick}>
-                    <button class="bg-red-500 text-white p-3 lg:-mt-16 lg:-mr-16 rounded-full border border-white h-fit hover:rotate-90 duration-500"><span className="sr-only">Close menu</span>
+                    <button class="bg-kuning text-ijo p-3 lg:-mt-16 lg:-mr-16 rounded-full border border-ijo h-fit hover:rotate-90 duration-500"><span className="sr-only">Close menu</span>
                       <svg className="w-6 lg:w-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="3.5" stroke="currentColor" aria-hidden="true">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                       </svg></button>

@@ -47,7 +47,6 @@ export const Navbar = () => {
                   <div className="flex">
                     <Link href={`/`} className="-m-1.5 p-1.5 flex items-center space-x-2">
                       <Image src={'Logo/logo-smk.svg'} height={50} width={50} alt="logo-smk" />
-                      {/* <Image src={'Logo/logo-itskanda.svg'} height={130} width={130} alt="logo-itskanda" /> */}
                     </Link>
                   </div>
                   <div className="absolute right-4" onClick={handleClick}>
