@@ -1,11 +1,11 @@
 'use client'
 
 import { Navbar } from '@/components/navbar'
-import './globals.css'
 import { Poppins } from 'next/font/google'
+import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from 'react';
+import './globals.css'
 
 const poppins = Poppins({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800'],

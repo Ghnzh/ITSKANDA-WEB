@@ -61,7 +61,7 @@ export const Navbar = () => {
                 <div className="mobile mt-4 md:px-6 flow-root">
                   <div className="-my-6 text-2xl">
                     <div className="flex flex-wrap gap-4 py-12 font-semibold text-3xl text-kuning">
-                      <Link href={`/`} className="p-4 rounded-xl bg-ijo leading-7">Home</Link>
+                      <Link href={`/#major`} className="p-4 rounded-xl bg-ijo leading-7">Major Class</Link>
                       <Link href="/guru" className="p-4 rounded-xl bg-ijo leading-7">Educators</Link>
                       <Link href="/achievements" className="p-4 rounded-xl bg-ijo leading-7">Achievements</Link>
                       <Link href={`/blogs`} className="p-4 rounded-xl bg-ijo leading-7">Article</Link>

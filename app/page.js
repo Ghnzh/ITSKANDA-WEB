@@ -1,13 +1,20 @@
 import Image from 'next/image'
 import Footer from '@/components/footer'
 import Link from 'next/link'
+import jobList from '@/app/json/job.json'
+import BoxModel from '@/components/boxCard/cardJob'
+import RunningText from '@/components/runningText/page'
 
 
-export default function Home() {
+function Home() {
+
+  const renderJob = () => {
+    return jobList.map((job) => <BoxModel text={job} />);
+  }
+
   return (
     <>
 
-    {/* Section 1 */}
     <div data-aos="fade-down" className="h-screen text-center">
         <div className="h-[70%] w-full bg-ijo flex flex-col items-center justify-center pt-4">
           <h1 data-aos="fade-right" className="text-4xl font-bold md:text-5xl lg:text-6xl capitalize text-kuning max-w-md md:max-w-[800px]">raih masa Depan dengan Belajar teknologi</h1>
@@ -19,11 +26,10 @@ export default function Home() {
           </svg>
         </div>
         <div className="mx-auto lg:-mt-52 md:-mt-40 -mt-24 px-8 w-full">
-          <Image src={'/Unsplash/gambar1.jpg'} height={200} width={1000} alt='hero-img' data-aos="fade-down" className='rounded-2xl mx-auto'/>
+        <Image src={'/Unsplash/gambar1.jpg'} height={200} width={1000} alt='hero-img' data-aos="fade-down" className='rounded-2xl mx-auto'/>
         </div>
     </div>
 
-    {/* Section 2 */}
     <div className='lg:px-40 lg:mt-72 md:mt-20 lg:py-8 px-10 -mt-20 space-y-12 font-medium'>
       <div className='lg:flex lg:justify-center lg:space-x-28 lg:space-y-0 space-y-4'>
         <h1 data-aos="fade-right" className='lg:w-1/3 font-bold lg:text-5xl text-4xl'>Why?</h1>
@@ -40,29 +46,14 @@ export default function Home() {
           <div data-aos="fade-left" className='lg:w-2/3 lg:text-[18px] lg:max-w-xl lg:space-y-6 space-y-4'>
             <p>Ada banyak peluang kerja yang tersedia bagi pelajar IT, beberapa di antaranya adalah:</p>
             <ul className='flex flex-row flex-wrap md:gap-3 gap-2 font-semibold md:text-[22px]'>
-              <li data-aos="fade-up" className='md:px-6 p-3 rounded-xl bg-nav border-ijo border-[0.5px]'>Adminitrasi Sistem</li>
-              <li data-aos="fade-up" className='md:px-6 p-3 rounded-xl bg-nav border-ijo border-[0.5px]'>AI</li>
-              <li data-aos="fade-up" className='md:px-6 p-3 rounded-xl bg-nav border-ijo border-[0.5px]'>IoT</li>  
-              <li data-aos="fade-up" className='md:px-6 p-3 rounded-xl bg-nav border-ijo border-[0.5px]'>Cyber Security</li>
-              <li data-aos="fade-up" className='md:px-6 p-3 rounded-xl bg-nav border-ijo border-[0.5px]'>Web Developer</li>
-              <li data-aos="fade-up" className='md:px-6 p-3 rounded-xl bg-nav border-ijo border-[0.5px]'>UI/UX Design</li>
-              <li data-aos="fade-up" className='md:px-6 p-3 rounded-xl bg-nav border-ijo border-[0.5px]'>Cloud Engineer</li>
-              <li data-aos="fade-up" className='md:px-6 p-3 rounded-xl bg-nav border-ijo border-[0.5px]'>DevOps</li>
-              <li data-aos="fade-up" className='md:px-6 p-3 rounded-xl bg-nav border-ijo border-[0.5px]'>IT Support</li>
-              <li data-aos="fade-up" className='md:px-6 p-3 rounded-xl bg-ijo border-nav text-nav border-[0.5px]'>& Lainnya</li>
+             {renderJob()}
             </ul>  
           </div>
         </div>
     </div>
 
-    {/* Running Text */}
-    <div className="marquee lg:my-12 my-16 bg-ijo text-cream">
-      <div className="marquee__inner">
-        <p data-aos="fade-up" className="marquee__line lg:text-6xl md:text-5xl text-[34px] lg:p-6 md:p-5 p-2 ">• SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT • SMKN 2 PRESENT </p>
-      </div>
-    </div>
+    <RunningText />
 
-    {/* Section 3 */}
     <div className="lg:px-40 lg:py-12 px-10 text-ijo font-bold">
         <h1 data-aos="fade-right" className="lg:text-5xl text-4xl">Facility</h1>
         <div data-aos="fade-up" className="grid lg:grid-cols-3 bg-nav lg:mt-10 mt-6 rounded-xl lg:text-2xl text-xl lg:py-8 lg:px-0 px-8">
@@ -90,13 +81,14 @@ export default function Home() {
         </div>
     </div>
 
-    {/* Section 4 */}
     <div id='major' className="lg:px-40 py-12 px-10 font-bold lg:space-y-6 lg:-mt-8">
         <h1 data-aos="fade-right" className='lg:text-5xl text-4xl lg:my-12 text-center'>Program Keahlian yang Tersedia</h1>
         <div className='grid lg:grid-cols-2 lg:space-x-12 lg:text-[28px] lg:space-y-0 space-y-4 text-xl mt-12'>
           <div>
             <div data-aos="fade-up" className='flex justify-center items-center bg-nav rounded-3xl py-20 px-6 lg:px-0'>
-              <Image src={'icon/rpl-img.svg'} width={400} height={400} alt='rpl-image' />
+              <Link href={'/pplg'} className='hover:scale-90 duration-500'>
+                <Image src={'icon/rpl-img.svg'} width={400} height={400} alt='rpl-image' />
+              </Link>
             </div>
               <div data-aos="fade-right" className='py-6 flex justify-around items-center lg:space-x-16 space-x-8'>
                 <div>
@@ -110,7 +102,9 @@ export default function Home() {
           </div>
           <div>
             <div data-aos="fade-up" className='flex justify-center items-center bg-nav rounded-3xl lg:py-8 lg:px-0 p-12 '>
-              <Image src={'icon/tkj-img.svg'} width={320} height={320} alt='tjkt-image' />
+              <Link href={'/tjkt'} className='hover:scale-90 duration-500'>
+                <Image src={'icon/tkj-img.svg'} width={320} height={320} alt='tjkt-image' />
+              </Link>
             </div>
             <div data-aos="fade-right" className='py-6 flex justify-around items-center lg:space-x-16 space-x-8'>
                 <div>
@@ -128,3 +122,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home

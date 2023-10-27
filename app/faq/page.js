@@ -1,23 +1,35 @@
-import Footer from "@/components/footer"
-import SoonCard from "@/components/soonCard"
-import Image from "next/image"
+import Header from "@/components/header/page";
+import faqList from "../json/faq.json";
+import Card from "@/components/faq/card";
+import Footer from "@/components/footer";
 
-export default function faqPage() {
-    return (
-        <>
-        <div className="h-screen text-center">
-            <div className="h-[35%] lg:h-[10%] w-full bg-ijo flex flex-col items-center justify-center pt-4">
-            {/* <Image src={'faq.svg'} width={300} height={300} alt="faq-text"  /> */}
-            {/* <h1 className="font-bold text-5xl lg:text-6xl text-kuning">FAQs</h1> */}
-            </div>
-            <div className='w-full lg:-mt-32 -mt-14'>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 260" fill="none">
-                <path d="M1280 200.675L1237.33 214.031C1194.67 226.887 1109.33 254.346 1024 247.232C938.667 240.616 853.333 200.675 768 200.675C682.667 200.675 597.333 240.616 512 253.972C426.667 266.828 341.333 254.346 256 240.616C170.667 226.887 85.3334 214.405 42.6666 207.29L0 200.675V0.970184H42.6666C85.3334 0.970184 170.667 0.970184 256 0.970184C341.333 0.970184 426.667 0.970184 512 0.970184C597.333 0.970184 682.667 0.970184 768 0.970184C853.333 0.970184 938.667 0.970184 1024 0.970184C1109.33 0.970184 1194.67 0.970184 1237.33 0.970184H1280V200.675Z" fill="#2F4E37"/>
-            </svg>
-            </div>
+function Content() {
+
+    const renderCard = () => {
+        return faqList.map((faq) => <Card 
+            key={faq.id} 
+            title={faq.title} 
+            content={faq.content} 
+        />);
+      }
+
+  return (
+    <>
+    <Header judul={`Questions? We've got answers.`} />
+    <div className='lg:px-32 px-10 pb-20 -mt-12 font-medium'>
+      <div className='lg:flex lg:justify-center lg:space-x-28 '>
+        <div className="lg:w-1/3 space-y-2">
+            <h1 data-aos="fade-right" className='font-bold lg:text-6xl text-4xl'>FAQs</h1>
+            <p data-aos="fade-left">Frequently Asked Questions</p>
         </div>
-        <SoonCard />
-        <Footer />
-        </>
-    )
-}
+        <div className="lg:w-2/3 space-y-4">
+          {renderCard()}
+        </div>
+        </div>
+      </div>
+      <Footer />
+    </>
+  );
+};
+
+export default Content;

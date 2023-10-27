@@ -14,7 +14,7 @@ function CardGuru({guru}) {
   return (
     <>
       <div>
-        <div data-aos="fade-up" className="bg-nav hover:bg-ijo hover:text-nav cursor-pointer px-8 py-6 rounded-xl w-full text-left duration-500" onClick={handleClick}>
+        <div data-aos="fade-up" className="bg-nav hover:bg-ijo hover:text-nav cursor-pointer px-8 py-6 rounded-xl w-full text-left" onClick={handleClick}>
               <h1 className="lg:text-3xl font-bold">{guru.nama}</h1>
               <h1 className="lg:text-lg ">{guru.bidangStudi}</h1>
         </div>
