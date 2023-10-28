@@ -2,7 +2,7 @@ const Header = ({judul, desc}) => {
     return (
         <div data-aos="fade-down" className="h-screen text-center">
             <div className="h-[60%] w-full bg-ijo flex flex-col items-center justify-center pt-4">
-            <h1 data-aos="fade-right" className="text-[40px] font-bold lg:mt-6 md:text-5xl lg:text-6xl text-kuning max-w-md lg:max-w-full">{judul}</h1>
+            <h1 data-aos="fade-right" className="text-[40px] font-bold lg:mt-6 md:text-5xl lg:text-6xl text-kuning max-w-md lg:max-w-full leading-10">{judul}</h1>
             <p data-aos="fade-left" className="text-cream text-lg max-w-xs lg:max-w-full lg:text-xl lg:mt-2">{desc}</p>
             </div>
             <div className='w-full lg:-mt-52 -mt-14'>
