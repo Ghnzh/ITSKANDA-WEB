@@ -16,7 +16,7 @@ export default function achievementsPage() {
         <>
         <Header judul={'Achievements'} desc={`${achievementList.length} Trophy`} />
 
-        <div className="bg-cream lg:px-36 lg:pb-28 px-10 pb-12 lg:-mt-44 -mt-52 rounded-t-3xl">
+        <div className="bg-cream lg:px-36 lg:pb-28 px-10 pb-12 lg:-mt-44 -mt-60 rounded-t-3xl">
             <div className="grid lg:grid-cols-2 mb-12 lg:gap-16 gap-y-10">
                 {renderAchiev()}
             </div>
