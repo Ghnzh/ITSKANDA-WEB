@@ -1,13 +1,13 @@
 import Footer from "@/components/footer"
 import Header from "@/components/header/page"
 import dataTJKT from '@/app/json/tjkt.json'
+import Card from "@/components/boxCard/card"
 
 function Page() {
 
     const renderMapel = () => {
         return dataTJKT.map((mapel) => <Card key={mapel.id} text={mapel} />);
       }
-
 
     return (
         <>
