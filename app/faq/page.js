@@ -16,7 +16,7 @@ function Content() {
   return (
     <>
     <Header judul={`Questions? We've got answers.`} />
-    <div className='lg:px-32 px-10 pb-20 lg:-mt-40 -mt-48 font-medium'>
+    <div className='lg:px-32 px-10 pb-20 lg:-mt-40 -mt-52 font-medium'>
       <div className='lg:flex lg:justify-center lg:space-x-28 space-y-8 lg:space-y-0'>
         <div className="lg:w-1/3 lg:space-y-2">
             <h1 data-aos="fade-right" className='font-bold lg:text-6xl text-4xl'>FAQs</h1>

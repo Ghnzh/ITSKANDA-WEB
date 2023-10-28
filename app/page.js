@@ -6,6 +6,13 @@ import Facility from '@/components/facility/page'
 import MajorCLass from '@/components/majorClass/page'
 import Footer from '@/components/footer'
 
+export const metadata = {
+  title: {
+    default: 'ITSKANDA',
+    template: '%s | ITSKANDA'
+  },
+  description: 'SKANDA TI WEBSITE',
+}
 
 function Home() {
 

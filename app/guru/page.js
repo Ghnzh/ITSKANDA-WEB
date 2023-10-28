@@ -15,7 +15,7 @@ function guruPage() {
             judul={'Teaching Staff'} 
             desc={`${guruList.length} Educators`}
         />
-        <div className="lg:px-24 px-10 pb-14 -mt-32 md:-mt-40">
+        <div className="lg:px-24 px-10 pb-14 -mt-48 md:-mt-40">
             <p data-aos="fade-right" className="font-light italic">|| klik untuk melihat profile lengkap</p>
             <div className="grid lg:grid-cols-2 mt-12 lg:gap-6 gap-y-5">
                 {renderGuru()}

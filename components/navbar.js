@@ -41,7 +41,7 @@ export const Navbar = () => {
                 <Link href={`/faq`} className="hover:bg-ijo hover:text-kuning px-4 py-2 rounded-xl duration-500">FAQs</Link>
               </div>
             </nav>
-            <div role="dialog" aria-modal="true">
+            <div role="dialog" aria-modal="true" aria-label="mobile">
               <div focus="true" className={`${active ? "" : "hidden"} fixed inset-0 z-10 overflow-y-auto bg-nav px-6 py-6 lg:hidden m-6 h-fit rounded-xl shadow-2xl`}>
                 <div className="flex h-9 items-center justify-between">
                   <div className="flex">
