@@ -7,10 +7,7 @@ import MajorCLass from '@/components/majorClass/page'
 import Footer from '@/components/footer'
 
 export const metadata = {
-  title: {
-    default: 'ITSKANDA',
-    template: '%s | ITSKANDA'
-  },
+  title: 'ITSKANDA',
   description: 'SKANDA TI WEBSITE',
 }
 
@@ -22,7 +19,6 @@ function Home() {
 
   return (
     <>
-
     <div data-aos="fade-down" className="h-screen text-center">
         <div className="h-[70%] w-full bg-ijo flex flex-col items-center justify-center pt-4">
           <h1 data-aos="fade-right" className="text-4xl font-bold md:text-5xl lg:text-6xl capitalize text-kuning max-w-md md:max-w-[800px]">raih masa Depan dengan Belajar teknologi</h1>
@@ -37,7 +33,6 @@ function Home() {
         <Image src={'/Unsplash/gambar1.jpg'} height={200} width={1000} alt='hero-img' data-aos="fade-down" className='rounded-2xl mx-auto'/>
         </div>
     </div>
-
     <div className='lg:px-40 lg:mt-72 md:mt-20 lg:py-8 px-10 -mt-20 space-y-20 font-medium'>
       <div className='lg:flex lg:space-x-28 lg:space-y-0 space-y-6'>
         <h1 data-aos="fade-right" className='lg:w-2/5 font-bold lg:text-[40px] text-4xl'>Kenapa Belajar Teknologi?</h1>
