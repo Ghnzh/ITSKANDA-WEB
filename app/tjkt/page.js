@@ -3,6 +3,11 @@ import Header from "@/components/header/page"
 import dataTJKT from '@/app/json/tjkt.json'
 import Card from "@/components/boxCard/card"
 
+export const metadata = {
+    title: 'TJKT | ITSKANDA',
+    description: 'SKANDA TI WEBSITE',
+  }
+
 function Page() {
 
     const renderMapel = () => {

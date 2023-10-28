@@ -3,6 +3,11 @@ import Header from "@/components/header/page"
 import dataPPLG from '@/app/json/pplg.json'
 import Card from "@/components/boxCard/card";
 
+export const metadata = {
+    title: 'PPLG | ITSKANDA',
+    description: 'SKANDA TI WEBSITE',
+  }
+
 function Page() {
 
     const renderMapel = () => {

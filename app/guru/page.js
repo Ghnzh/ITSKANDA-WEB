@@ -3,6 +3,11 @@ import CardGuru from '@/components/guru/card';
 import guruList from '@/app/json/guru.json'
 import Header from "@/components/header/page";
 
+export const metadata = {
+    title: 'Teacher | ITSKANDA',
+    description: 'SKANDA TI WEBSITE',
+  }
+
 function guruPage() {
 
      const renderGuru = () => {

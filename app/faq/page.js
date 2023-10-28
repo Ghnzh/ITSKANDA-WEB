@@ -3,6 +3,11 @@ import faqList from "../json/faq.json";
 import Card from "@/components/faq/card";
 import Footer from "@/components/footer";
 
+export const metadata = {
+  title: 'FAQs | ITSKANDA',
+  description: 'SKANDA TI WEBSITE',
+}
+
 function Content() {
 
     const renderCard = () => {

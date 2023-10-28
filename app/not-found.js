@@ -1,3 +1,8 @@
+export const metadata = {
+    title: '404 | ITSKANDA',
+    description: 'SKANDA TI WEBSITE',
+  }
+
 export default function errorPage() {
     return(
         <section className="h-screen bg-ijo text-kuning flex items-end p-12 lg:p-16">

@@ -8,7 +8,7 @@ const MajorCLass = () => {
         <h1 data-aos="fade-right" className='lg:text-5xl text-4xl lg:my-12 text-center'>Program Keahlian yang Tersedia</h1>
         <div className='grid lg:grid-cols-2 lg:space-x-12 lg:text-[28px] lg:space-y-0 space-y-4 text-xl mt-12'>
           <Link href={'/pplg'}>
-            <div data-aos="fade-up" className='flex justify-center items-center bg-nav rounded-3xl py-20 px-6 lg:px-0 border border-ijo'>
+            <div data-aos="fade-up" className='flex justify-center items-center bg-nav rounded-3xl py-20 px-6 lg:px-0 border-[0.5px] border-ijo'>
                 <Image src={rplImage} width={400} height={400} alt='rpl-image' className='hover:scale-90 duration-500' />
             </div>
               <div data-aos="fade-right" className='py-6 flex justify-around items-center lg:space-x-16 space-x-8'>
@@ -22,7 +22,7 @@ const MajorCLass = () => {
             </div>
           </Link>
           <Link href={'/tjkt'}>
-            <div data-aos="fade-up" className='flex justify-center items-center bg-nav rounded-3xl lg:py-8 lg:px-0 border border-ijo p-12 '>
+            <div data-aos="fade-up" className='flex justify-center items-center bg-nav rounded-3xl lg:py-8 lg:px-0 border-[0.5px] border-ijo p-12 '>
                 <Image src={'icon/tkj-img.svg'} width={320} height={320} alt='tjkt-image' className='hover:scale-90 duration-500' />
             </div>
             <div data-aos="fade-right" className='py-6 flex justify-around items-center lg:space-x-16 space-x-8'>

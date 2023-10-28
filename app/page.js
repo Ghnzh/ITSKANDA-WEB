@@ -7,7 +7,7 @@ import MajorCLass from '@/components/majorClass/page'
 import Footer from '@/components/footer'
 
 export const metadata = {
-  title: 'ITSKANDA',
+  title: 'ITSKANDA - SMKN 2 PKU',
   description: 'SKANDA TI WEBSITE',
 }
 

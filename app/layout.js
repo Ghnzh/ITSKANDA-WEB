@@ -6,7 +6,6 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './globals.css'
-import Metadata from '@/components/seo/page';
 
 const poppins = Poppins({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800'],
@@ -23,7 +22,6 @@ export default function RootLayout({ children }) {
  }, [])
   return (
     <html lang="en" className='scroll-smooth overflow-x-hidden lg:overflow-x-visible'>
-      <Metadata />
       <body className={poppins.className}>
         <Navbar />
         {children}

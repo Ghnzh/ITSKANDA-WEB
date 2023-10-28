@@ -3,6 +3,11 @@ import CardAchievement from "@/components/achievement/card";
 import Footer from "@/components/footer"
 import Header from "@/components/header/page";
 
+export const metadata = {
+    title: 'Achievement | ITSKANDA',
+    description: 'SKANDA TI WEBSITE',
+  }
+
 export default function achievementsPage() {
     const renderAchiev = () => {
         return achievementList.map((achievement) => <CardAchievement key={achievement.id} achievement={achievement} />);
