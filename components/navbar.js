@@ -60,13 +60,13 @@ export const Navbar = () => {
                 </div>
                 <div className="mobile mt-4 md:px-6 flow-root">
                   <div className="-my-6 text-2xl">
-                    <div className="grid grid-cols-1 gap-2 py-12 font-semibold text-3xl text-kuning text-center">
-                      <Link onClick={handleClick} href={`/#major`} className="p-4 rounded-xl bg-ijo">Major Class</Link>
-                      <Link onClick={handleClick} href="/guru" className="p-4 rounded-xl bg-ijo">Educators</Link>
-                      <Link onClick={handleClick} href="/achievements" className="p-4 rounded-xl bg-ijo">Achievements</Link>
-                      <Link onClick={handleClick} href={`/blogs`} className="p-4 rounded-xl bg-ijo">Article</Link>
-                      <Link onClick={handleClick} href={`/products`} className="p-4 rounded-xl bg-ijo">Products</Link>
-                      <Link onClick={handleClick} href={`/faq`} className="p-4 rounded-xl bg-ijo">FAQ</Link>
+                    <div className="grid grid-cols-1 gap-3 py-12 font-semibold text-3xl text-kuning text-center">
+                      <Link onClick={handleClick} href={`/#major`} className="p-4 rounded-xl bg-ijo border-4 border-kuning">Major Class</Link>
+                      <Link onClick={handleClick} href="/guru" className="p-4 rounded-xl bg-ijo border-4 border-kuning">Educators</Link>
+                      <Link onClick={handleClick} href="/achievements" className="p-4 rounded-xl bg-ijo border-4 border-kuning">Achievements</Link>
+                      <Link onClick={handleClick} href={`/blogs`} className="p-4 rounded-xl bg-ijo border-4 border-kuning">Article</Link>
+                      <Link onClick={handleClick} href={`/products`} className="p-4 rounded-xl bg-ijo border-4 border-kuning">Products</Link>
+                      <Link onClick={handleClick} href={`/faq`} className="p-4 rounded-xl bg-ijo border-4 border-kuning">FAQ</Link>
                     </div>
                   </div>
                 </div>
