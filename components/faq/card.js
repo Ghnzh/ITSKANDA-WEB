@@ -12,7 +12,7 @@ const Card = ({ title, content, index }) => {
 
   return (
     <main className="cursor-pointer space-y-2">  
-        <div data-aos="fade-up" className='flex items-center justify-between p-6 border  border-ijo rounded-xl' onClick={() => handleToggle(index)}>
+        <div data-aos="fade-up" className='flex items-center justify-between px-6 py-4 border  border-ijo rounded-xl' onClick={() => handleToggle(index)}>
             <p className={
                 active === index
                 ? "lg:text-lg max-w-[14rem] lg:max-w-[32rem] font-semibold"
