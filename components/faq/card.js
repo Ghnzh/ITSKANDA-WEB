@@ -15,12 +15,13 @@ const Card = ({ title, content, index }) => {
         <div data-aos="fade-up" className='flex items-center justify-between p-6 border  border-ijo rounded-xl' onClick={() => handleToggle(index)}>
             <p className={
                 active === index
-                ? "text-lg max-w-[32rem] "
-                : "text-lg max-w-[32rem] "
+                ? "lg:text-lg max-w-[14rem] lg:max-w-[32rem] font-semibold"
+                : "lg:text-lg max-w-[14rem] lg:max-w-[32rem] "
             }>
             {title}
             </p>
             <Image
+            rel="preload"
             src={Arrow}
             alt='arrow-icon'
             className={

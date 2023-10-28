@@ -1,7 +1,7 @@
 const BoxModel = ({text}) => {
     return (
         <>
-        <li 
+        <div 
         data-aos="fade-up" 
         className={
             text.job === '& Lainnya'
@@ -9,7 +9,7 @@ const BoxModel = ({text}) => {
             : 'md:px-6 p-3 rounded-xl bg-nav border-ijo border-[0.5px]'
         }>
         {text.job}
-        </li>
+        </div>
         </>
     )
 }

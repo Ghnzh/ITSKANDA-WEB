@@ -16,7 +16,7 @@ const poppins = Poppins({
 // export const metadata = {
 //   title: 'ITSKANDA',
 //   description: 'SKANDA TI WEBSITE',
-//   // link = '/favicon.ico' />,
+//   // link = '/favicon.ico'
 // }
 
 export default function RootLayout({ children }) {

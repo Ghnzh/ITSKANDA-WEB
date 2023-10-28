@@ -1,16 +1,42 @@
 [
-    {"defenisi": "PPLG atau Pengembangan Perangkat Lunak dan Gim adalah sebuah jurusan di SMK (Sekolah Menengah Kejuruan). Jurusan ini mempelajari dan mendalami cara-cara mengembangkan perangkat lunak. Mulai dari pembuatan, pemeliharaan, manajemen kualitas, dan manajemen organisasi pengembangan perangkat lunak. Selain itu, jurusan PPLG juga berhubungan dengan software komputer seperti pembuatan aplikasi, website, game dan semua yang berhubungan dengan pemrograman. Singkatnya, jurusan PPLG erat kaitannya dengan coding, desain, dan algoritma."},
-
-    {"mapel": 
-        [
-            "basis data", "sistem komputer","dasar desain grafis",
-            "simulasi dan komunikasi digital",
-            "pemodelan perangkat lunak",
-            "pemrograman dasar",
-            "komputer dan jaringan dasar",
-            "pemrograman web perangkat bergerak",
-            "pemrograman berorientasi objek",
-            "produk kreatif dan kewirausahaan"
-        ]
+    {
+        "id":1,
+        "mapel":"basis data"
+    },
+    {
+        "id":2,
+        "mapel":"sistem komputer"
+    },
+    {
+        "id":3,
+        "mapel":"dasar desain grafis"
+    },
+    {
+        "id":4,
+        "mapel":"simulasi dan komunikasi digital"
+    },
+    {
+        "id":5,
+        "mapel":"pemodelan perangkat lunak"
+    },
+    {
+        "id":6,
+        "mapel":"pemrograman dasar"
+    },
+    {
+        "id":7,
+        "mapel":"komputer dan jaringan dasar"
+    },
+    {
+        "id":8,
+        "mapel":"pemrograman web perangkat bergerak"
+    },
+    {
+        "id":9,
+        "mapel":"pemrograman berorientasi objek"
+    },
+    {
+        "id":10,
+        "mapel": "produk kreatif dan kewirausahaan"
     }
 ]
