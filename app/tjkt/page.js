@@ -15,7 +15,7 @@ function Page() {
             judul="TJKT" 
             desc="Teknik Jaringan Komputer dan Telekomunikasi" 
         />
-        <div className="lg:px-24 px-10 pb-14 -mt-44 md:-mt-40">
+        <div className="lg:px-24 px-10 pb-14 -mt-60 md:-mt-40">
             <div className='lg:flex lg:space-x-12 lg:space-y-0 space-y-6'>
                 <h1 data-aos="fade-right" className='lg:w-2/5 font-bold lg:text-[40px] text-4xl'>Apa Itu TJKT?</h1>
                 <p data-aos="fade-left" className='lg:w-3/5 lg:text-xl'>
