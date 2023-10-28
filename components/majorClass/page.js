@@ -4,7 +4,7 @@ import rplImage from '@/public/icon/rpl-img.svg'
 
 const MajorCLass = () => {
     return (
-        <div id='major' className="lg:px-40 py-12 px-10 font-bold lg:space-y-6 lg:-mt-8">
+        <div id='major' className="lg:px-40 pt-12 px-10 font-bold lg:space-y-6 lg:-mt-8">
         <h1 data-aos="fade-right" className='lg:text-5xl text-4xl lg:my-12 text-center'>Program Keahlian yang Tersedia</h1>
         <div className='grid lg:grid-cols-2 lg:space-x-12 lg:text-[28px] lg:space-y-0 space-y-4 text-xl mt-12'>
           <Link href={'/pplg'}>
