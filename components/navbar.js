@@ -23,7 +23,7 @@ export const Navbar = () => {
               </div>
               <div className="flex self-center justify-center lg:min-w-0 lg:flex-1" aria-label="Global">
                 <Link href={`/`} className="-m-1.5 p-1.5 flex items-center space-x-2">
-                  <Image rel="preload" src={'Logo/logo-smk.svg'} height={40} width={40} alt="logo-smk" />
+                  <Image src={'Logo/logo-smk.svg'} height={40} width={40} alt="logo-smk" />
                   <Image src={'Logo/Logo-itskanda.svg'} height={130} width={130} alt="L" />
                 </Link>
               </div>
@@ -46,7 +46,7 @@ export const Navbar = () => {
                 <div className="flex h-9 items-center justify-between">
                   <div className="flex">
                     <Link href={`/`} className="-m-1.5 p-1.5 flex items-center space-x-2">
-                      <Image rel="preload" src={'Logo/logo-smk.svg'} height={50} width={50} alt="logo-smk" />
+                      <Image src={'Logo/logo-smk.svg'} height={50} width={50} alt="logo-smk" />
                     </Link>
                   </div>
                   <div className="absolute right-4" onClick={handleClick}>
