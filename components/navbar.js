@@ -42,7 +42,7 @@ export const Navbar = () => {
               </div>
             </nav>
             <div role="dialog" aria-modal="true" aria-label="mobile">
-              <div focus="true" className={`${active ? "" : "hidden"} fixed inset-0 z-10 overflow-y-auto bg-nav px-6 py-6 lg:hidden m-6 h-fit rounded-xl shadow-2xl`}>
+              <div focus="true" className={`${active ? "" : "hidden"} fixed inset-0 z-10 overflow-y-auto bg-nav px-6 py-6 lg:hidden m-6 h-fit rounded-xl shadow-2xl border border-ijo`}>
                 <div className="flex h-9 items-center justify-between">
                   <div className="flex">
                     <Link href={`/`} className="-m-1.5 p-1.5 flex items-center space-x-2">
@@ -60,13 +60,13 @@ export const Navbar = () => {
                 </div>
                 <div className="mobile mt-4 md:px-6 flow-root">
                   <div className="-my-6 text-2xl">
-                    <div className="flex flex-wrap gap-4 py-12 font-semibold text-3xl text-kuning">
-                      <Link onClick={handleClick} href={`/#major`} className="p-4 rounded-xl bg-ijo leading-7">Major Class</Link>
-                      <Link onClick={handleClick} href="/guru" className="p-4 rounded-xl bg-ijo leading-7">Educators</Link>
-                      <Link onClick={handleClick} href="/achievements" className="p-4 rounded-xl bg-ijo leading-7">Achievements</Link>
-                      <Link onClick={handleClick} href={`/blogs`} className="p-4 rounded-xl bg-ijo leading-7">Article</Link>
-                      <Link onClick={handleClick} href={`/products`} className="p-4 rounded-xl bg-ijo leading-7">Products</Link>
-                      <Link onClick={handleClick} href={`/faq`} className="p-4 rounded-xl bg-ijo leading-7">FAQ</Link>
+                    <div className="grid grid-cols-1 gap-2 py-12 font-semibold text-3xl text-kuning text-center">
+                      <Link onClick={handleClick} href={`/#major`} className="p-4 rounded-xl bg-ijo">Major Class</Link>
+                      <Link onClick={handleClick} href="/guru" className="p-4 rounded-xl bg-ijo">Educators</Link>
+                      <Link onClick={handleClick} href="/achievements" className="p-4 rounded-xl bg-ijo">Achievements</Link>
+                      <Link onClick={handleClick} href={`/blogs`} className="p-4 rounded-xl bg-ijo">Article</Link>
+                      <Link onClick={handleClick} href={`/products`} className="p-4 rounded-xl bg-ijo">Products</Link>
+                      <Link onClick={handleClick} href={`/faq`} className="p-4 rounded-xl bg-ijo">FAQ</Link>
                     </div>
                   </div>
                 </div>
