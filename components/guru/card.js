@@ -21,7 +21,7 @@ function CardGuru({guru}) {
         <div role="dialog" aria-modal="true">
           <div focus="true" className={`${active ? "" : "hidden"}`}>
             <div className="fixed inset-0 flex items-center justify-center z-50">
-              <div className="fixed inset-0 bg-ijo opacity-60"></div>
+              <div className="fixed inset-0 bg-ijo opacity-40"></div>
               <div className="bg-cream border-2 border-ijo p-6 lg:p-12 mt-12 rounded-xl w-[90%] lg:w-1/2 relative z-10 font-medium">
                 <div className="flex justify-end" onClick={handleClick}>
                     <button className="bg-kuning text-ijo p-3 lg:-mt-16 lg:-mr-16 rounded-full border-2 border-ijo h-fit hover:rotate-90 duration-500"><span className="sr-only">Close menu</span>
