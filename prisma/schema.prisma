@@ -1,0 +1,45 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model achievements {
+  id       Int    @id @default(autoincrement())
+  tahun    Int
+  juara    String @db.VarChar(255)
+  ketLomba String @db.Text
+}
+
+model faqs {
+  id       Int    @id @default(autoincrement())
+  question String @db.Text
+  answer   String @db.Text
+}
+
+model guru {
+  id          Int    @id @default(autoincrement())
+  nama        String @db.Text
+  ttl         String @db.Text
+  bidangStudi String @db.VarChar(255)
+  moto        String @db.Text
+  img         String @db.Text
+}
+
+model job {
+  id       Int    @id @default(autoincrement())
+  nameJob  String @db.Text
+}
+
+model pplg {
+  id       Int    @id @default(autoincrement())
+  mapel    String @db.Text
+}
+
+model tjkt {
+  id       Int    @id @default(autoincrement())
+  mapel    String @db.Text
+}
